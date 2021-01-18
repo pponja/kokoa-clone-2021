@@ -1,0 +1,9 @@
+:root {
+  --yellow: #fae100;
+  --light-grey: rgba(0, 0, 0, 0.2);
+  --grey: rgba(0, 0, 0, 0.3);
+  --dark-grey: rgba(0, 0, 0, 0.5);
+  --pink: #ffb0e0;
+  --horizontal-space: 25px;
+  --screen-border: 1px solid var(--light-grey);
+}

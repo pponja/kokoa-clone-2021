@@ -29,13 +29,25 @@
       </p>
     </header>
 
-    <form id="login-form">
-      <input type="text" placeholder="Email or phone number" />
-      <input type="password" placeholder="Password" />
+    <form action="friends.html" method="GET" id="login-form">
+      <input
+        required
+        name="username"
+        type="text"
+        placeholder="Email or phone number"
+      />
+      <input required name="password" type="password" placeholder="Password" />
       <input type="submit" value="Log In" />
       <input type="submit" value="Sign Up" />
       <a href="#">Find Kokoa Account or Password</a>
     </form>
+
+    <div id="no-mobile">
+      <span>Your screen is too big. ;(</span>
+    </div>
+    <div id="no-landscape">
+      <span>Rotate your phone to portrait. ;(</span>
+    </div>
 
     <script
       src="https://kit.fontawesome.com/72045175a5.js"
