@@ -21,6 +21,18 @@
   margin-right: 30px;
 }
 
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .more-suggestions__icon-image {
   width: 60px;
   height: 60px;
@@ -32,6 +44,10 @@
   align-items: center;
 
   margin-bottom: 10px;
+}
+
+.more-suggestions__icon-image:hover {
+  animation: blink 0.5s linear;
 }
 
 .more-suggestions__icon-image i {

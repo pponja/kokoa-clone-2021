@@ -23,3 +23,19 @@
   font-size: 20px;
   opacity: 0.5;
 }
+
+@keyframes blink {
+  0% {
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.8;
+  }
+}
+
+.settings__setting:hover {
+  animation: blink 0.5s linear;
+}

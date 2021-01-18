@@ -21,6 +21,10 @@
 
 /***************************/
 
+.open-chat {
+  margin-bottom: 70px;
+}
+
 .open-chat__header {
   display: flex;
   justify-content: space-between;
